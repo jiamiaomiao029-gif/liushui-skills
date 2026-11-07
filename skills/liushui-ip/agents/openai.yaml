@@ -1,0 +1,4 @@
+interface:
+  display_name: "liushui｜IP定位顾问"
+  short_description: "从真实能力与用户任务出发，形成可验证的IP定位"
+  default_prompt: "请用 liushui-ip 帮我诊断适合的个人IP方向。先判断我的目标与当前阶段，用最少问题补足关键证据，并给出2-3个可测试定位。"

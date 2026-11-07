@@ -1,0 +1,4 @@
+interface:
+  display_name: "人设考古"
+  short_description: "通过对话和历史内容，提炼稳定人物机制并生成可验证的人设事件"
+  default_prompt: "使用 $liushui-persona 根据我的经历和历史内容，帮我考古出稳定的人设事件。"
