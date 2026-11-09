@@ -18,4 +18,4 @@ for md in root.rglob('*.md'):
         if '://' not in link and not link.startswith('mailto:'):
             assert (md.parent/link).is_file(),f'bad markdown link: {md}: {link}'
 print('PASS: metadata, local markdown links, paths, references, self-contained directories')
-print('Total files:',sum(p.is_file() for p in root.rglob('*')))
+print('Total package files:',sum(p.is_file() for p in root.rglob('*') if '.git' not in p.parts))
