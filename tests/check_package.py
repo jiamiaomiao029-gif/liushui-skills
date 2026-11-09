@@ -1,7 +1,7 @@
 from pathlib import Path
 import re
 root=Path(__file__).resolve().parents[1]
-required=['liushui-ip','liushui-persona']
+required=['liushui-ip','liushui-persona','liushui-content-loop']
 for name in required:
     p=root/'skills'/name/'SKILL.md'
     assert p.exists(), f'missing {p}'
